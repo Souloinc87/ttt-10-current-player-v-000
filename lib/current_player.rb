@@ -11,6 +11,6 @@ def turn_count(board)
 end
 
 def current_player(board)
-  puts "X"
   turn_count(board)
+  puts "X"
 end
