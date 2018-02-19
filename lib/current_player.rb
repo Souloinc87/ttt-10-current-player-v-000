@@ -14,8 +14,9 @@ def current_player(board)
   counter = 0
   board.each do | index |
     if index % 2
-      turn_count(board)
+      counter += 1
     puts "X"
   end
 end
+turn_count
 end
