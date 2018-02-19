@@ -17,5 +17,5 @@ def current_player(board)
       turn_count(board)
     puts "X"
   end
-end 
+end
 end
