@@ -11,11 +11,6 @@ def turn_count(board)
 end
 
 def current_player(board)
-  counter = 0
-  board.each do | index |
-    if index % 2 
-    puts "X"
-  end
-end
-turn_count(board)
+  puts "X"
+  turn_count(board)
 end
