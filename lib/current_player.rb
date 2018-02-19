@@ -6,6 +6,6 @@ def turn_count(board)
       counter += 1
       puts "#{counter}"
     end
-  else
-  counter 
+  end
+  counter
 end
