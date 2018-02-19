@@ -13,8 +13,7 @@ end
 def current_player(board)
   counter = 0
   board.each do | index |
-    if index % 2
-      gets.index 
+    if index % 2 
     puts "X"
   end
 end
